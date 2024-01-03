@@ -41,13 +41,13 @@
 		"prerequisites": ["Mystic Blade"],
 		"unitTypes": ["Sword","Gunpowder"]
 	},
-		{
+	{
 		"name": "Heroism",
 		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles","Only available <for units without [Ambition]>","Only available <for units without [Restlessness]>","Only available <for units without [Sneak Attack]>","Only available <for units without [Invulnerability]>"],
 		"prerequisites": ["Mystic Blade"],
 		"unitTypes": ["Sword","Gunpowder"]
 	},
-			{
+	{
 		"name": "Ambition",
 		"uniques": ["[+50]% Strength <when attacking>","[-20]% Strength <when defending>","Only available <for units without [Restlessness]>","Only available <for units without [Heroism]>","Only available <for units without [Sneak Attack]>","Only available <for units without [Invulnerability]>"],
 		"prerequisites": ["Mystic Blade"],
