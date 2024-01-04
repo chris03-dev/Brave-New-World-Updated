@@ -1,5 +1,9 @@
 Modified by [chris03-dev](https://codeberg.org/chris03-dev)
 
+- Worldwide by iconsdb.com for Exploration policy branch
+
+- Feather by iconsdb.com for Aesthetics policy branch
+
 Original [Brave New World](https://github.com/ravignir/Brave-New-World) mod by [ravignir](https://github.com/ravignir)
 
 ---
