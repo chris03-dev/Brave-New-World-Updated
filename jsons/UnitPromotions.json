@@ -6,52 +6,63 @@
 	{
 		"name": "Buffalo Horns",
 		"uniques": ["[+1] Movement","[+10]% Strength <when defending> <vs [Ranged] units>","[+25]% to Flank Attack bonuses"],
+		"unitTypes": ["Sword","Gunpowder"],
+		"column": 1
 	},
 	{
 		"name": "Buffalo Chest",
 		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>","[+10]% Strength <when defending> <vs [Ranged] units>","[+25]% to Flank Attack bonuses"],
 		"prerequisites": ["Buffalo Horns"],
-		"unitTypes": ["Sword","Gunpowder"]
+		"unitTypes": ["Sword","Gunpowder"],
+		"column": 2
 	},
 	{
 		"name": "Buffalo Loins",
 		"uniques": ["[+15]% Strength","[+10]% Strength <when defending> <vs [Ranged] units>","[+25]% to Flank Attack bonuses"],
 		"prerequisites": ["Buffalo Chest"],
-		"unitTypes": ["Sword","Gunpowder"]
+		"unitTypes": ["Sword","Gunpowder"],
+		"column": 3
 	},
 	{
 		"name": "Mystic Blade", // only for Kris Swordsman and subsequent upgrades
-		"uniques": ["Access to special promotions"]
+		"civilopediaText": [{"text": "Access to special promotions"}],
+		"unitTypes": ["Sword","Gunpowder"],
+		"column": 1,
 	},
 	{
 		"name": "Invulnerability",
 		"uniques": ["[+50]% Strength <when defending>", "[+20] HP when healing","Only available <for units without [Ambition]>","Only available <for units without [Restlessness]>","Only available <for units without [Heroism]>","Only available <for units without [Sneak Attack]>"],
 		"prerequisites": ["Mystic Blade"],
-		"unitTypes": ["Sword","Gunpowder"]
+		"unitTypes": ["Sword","Gunpowder"],
+		"column": 2
 	},
 	{
 		"name": "Sneak Attack",
 		"uniques": ["[+50]% to Flank Attack bonuses","Only available <for units without [Ambition]>","Only available <for units without [Restlessness]>","Only available <for units without [Heroism]>","Only available <for units without [Invulnerability]>"],
 		"prerequisites": ["Mystic Blade"],
-		"unitTypes": ["Sword","Gunpowder"]
+		"unitTypes": ["Sword","Gunpowder"],
+		"column": 2
 	},
 	{
 		"name": "Restlessness",
 		"uniques": ["[1] additional attacks per turn","[+1] Movement","Only available <for units without [Ambition]>","Only available <for units without [Heroism]>","Only available <for units without [Sneak Attack]>","Only available <for units without [Invulnerability]>"],
 		"prerequisites": ["Mystic Blade"],
-		"unitTypes": ["Sword","Gunpowder"]
+		"unitTypes": ["Sword","Gunpowder"],
+		"column": 2
 	},
 	{
 		"name": "Heroism",
 		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles","Only available <for units without [Ambition]>","Only available <for units without [Restlessness]>","Only available <for units without [Sneak Attack]>","Only available <for units without [Invulnerability]>"],
 		"prerequisites": ["Mystic Blade"],
-		"unitTypes": ["Sword","Gunpowder"]
+		"unitTypes": ["Sword","Gunpowder"],
+		"column": 2
 	},
 	{
 		"name": "Ambition",
 		"uniques": ["[+50]% Strength <when attacking>","[-20]% Strength <when defending>","Only available <for units without [Restlessness]>","Only available <for units without [Heroism]>","Only available <for units without [Sneak Attack]>","Only available <for units without [Invulnerability]>"],
 		"prerequisites": ["Mystic Blade"],
-		"unitTypes": ["Sword","Gunpowder"]
+		"unitTypes": ["Sword","Gunpowder"],
+		"column": 2
 	},
 	{
 		"name": "Homeland Guardian",
@@ -65,4 +76,4 @@
 		"name": "Altitude Training",
 		"uniques": ["Double movement in [Hill]","[+10]% Strength <when fighting in [Hill] tiles>"]
 	},
-	]
+]

@@ -70,7 +70,7 @@
 			},
 			{
 				"name": "Citizenship",
-				"uniques": ["[-25]% tile improvement construction time", "Free [Worker] appears"],
+				"uniques": ["[-25]% construction time for [All] improvements", "Free [Worker] appears"],
 				"row": 1,
 				"column": 4
 			},
@@ -108,7 +108,7 @@
 		"priorities": {
 			"Neutral": 0,
 			"Cultural": 0,
-			"Diplomatic": 0,
+			"Diplomatic": 10,
 			"Domination": 10,
 			"Scientific": 0
 		},
@@ -160,8 +160,8 @@
 		"priorities": {
 			"Neutral": 0,
 			"Cultural": 10,
-			"Diplomatic": 0,
-			"Domination": 0,
+			"Diplomatic": 10,
+			"Domination": 10,
 			"Scientific": 0
 		},
 		"policies": [
@@ -210,10 +210,10 @@
 		"uniques": ["[-25]% City-State Influence degradation"],
 		 "priorities": {
 			"Neutral": 0,
-			"Cultural": 0,
+			"Cultural": 10,
 			"Diplomatic": 20,
 			"Domination": 0,
-			"Scientific": 0
+			"Scientific": 10
 		},
 		"policies": [
 			{
@@ -265,14 +265,13 @@
 			"Neutral": 0,
 			"Cultural": 10,
 			"Diplomatic": 10,
-			"Domination": 20,
+			"Domination": 10,
 			"Scientific": 10
 		},
 		"policies": [
 			{
 				"name": "Wagon Trains",
-				"uniques": ["[-50]% maintenance on road & railroads", "[+2 Gold] from each Trade Route"
-				],
+				"uniques": ["[-50]% maintenance on road & railroads", "[+2 Gold] from each Trade Route"],
 				"row": 1,
 				"column": 2
 			},
@@ -318,10 +317,10 @@
 			"[+1] Sight <for [{Military} {Water}] units>"],
 		"era": "Medieval era",
 		"priorities": {
-			"Neutral": 10,
-			"Cultural": 10,
-			"Diplomatic": 20,
-			"Domination": 10,
+			"Neutral": 0,
+			"Cultural": 0,
+			"Diplomatic": 10,
+			"Domination": 60,
 			"Scientific": 10
 		},
 		"policies": [
@@ -370,9 +369,9 @@
 		"uniques": ["[Great Artist] is earned [33]% faster"],
 		"priorities": {
 			"Neutral": 0,
-			"Cultural": 40,
-			"Diplomatic": 0,
-			"Domination": 0,
+			"Cultural": 60,
+			"Diplomatic": 10,
+			"Domination": 10,
 			"Scientific": 10
 		},
 		"policies": [
@@ -426,9 +425,9 @@
 		"priorities": {
 			"Neutral": 0,
 			"Cultural": 10,
-			"Diplomatic": 0,
-			"Domination": 0,
-			"Scientific": 40
+			"Diplomatic": 10,
+			"Domination": 10,
+			"Scientific": 60
 		},
 		"policies": [
 			{
@@ -477,11 +476,11 @@
 		"era": "Industrial era",
 		"uniques": ["[+25]% Great Person generation [in all cities]", "Only available <before adopting [Autocracy]>", "Only available <before adopting [Order]>"],
 		"priorities": {
-			"Neutral": 30,
-			"Cultural": 30,
-			"Diplomatic": 30,
-			"Domination": 0,
-			"Scientific": 30
+			"Neutral": 50,
+			"Cultural": 50,
+			"Diplomatic": 50,
+			"Domination": 40,
+			"Scientific": 50
 		},
 		"policies": [
 			{
@@ -528,11 +527,11 @@
 		"uniques": ["[Gold] cost of purchasing [All] units [-33]%",
 			"Only available <before adopting [Order]>", "Only available <before adopting [Freedom]>"],
 		 "priorities": {
-			"Neutral": 30,
-			"Cultural": 0,
-			"Diplomatic": 0,
-			"Domination": 30,
-			"Scientific": 0
+			"Neutral": 50,
+			"Cultural": 40,
+			"Diplomatic": 40,
+			"Domination": 50,
+			"Scientific": 40
 		},
 		"policies": [
 			{
@@ -579,11 +578,11 @@
 		"era": "Industrial era",
 		"uniques": ["[+2 Happiness] from every [Monument]", "Only available <before adopting [Autocracy]>", "Only available <before adopting [Freedom]>"],
 		"priorities": {
-			"Neutral": 30,
-			"Cultural": 0,
-			"Diplomatic": 30,
-			"Domination": 0,
-			"Scientific": 30
+			"Neutral": 50,
+			"Cultural": 40,
+			"Diplomatic": 50,
+			"Domination": 40,
+			"Scientific": 50
 		},
 		"policies": [
 			{

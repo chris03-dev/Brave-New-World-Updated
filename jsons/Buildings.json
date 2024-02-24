@@ -20,7 +20,7 @@
         "cost": 1,
         "uniques": ["Only available <in cities without a [Palace]>","Only available <in cities without a [Nutmeg]>","Only available <in cities without a [Cloves]>","Limited to [1] per Civilization","Will not be displayed in Civilopedia","Provides [2] [Pepper]","Must be next to [Coast]"],
     },
-		{
+	{
 		"name": "Royal Library",
 		"replaces": "Library",
 		"uniqueTo": "Assyria",
@@ -67,13 +67,14 @@
 	    {
         "name": "Hanse",
         "replaces": "Bank",
-        "uniqueTo": "Germany",      
+        "uniqueTo": "Germany",
         "gold": 2,
         "specialistSlots": {"Merchant": 1},
         "hurryCostModifier": 15,
         "uniques": ["[+5]% [Production] [in this city]",
-            "[+25]% [Gold] [in this city]","Requires a [Market] [in this city]"],
-        "requiredTech": "Banking"
+            "[+25]% [Gold] [in this city]"],
+        "requiredBuilding": "Market",
+		"requiredTech": "Banking"
     },
 	// wonders
 	{
@@ -91,7 +92,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["[-25]% tile improvement construction time","[2] free [Worker] units appear","Only available <after adopting [Liberty]>"],
+		"uniques": ["[-25]% construction time for [All] improvements","[2] free [Worker] units appear","Only available <after adopting [Liberty]>"],
 		"requiredTech": "Masonry",
 		"quote": "'O, let not the pains of death which come upon thee enter into my body. I am the god Tem, and I am the foremost part of the sky, and the power which protecteth me is that which is with all the gods forever.' - The Book of the Dead, translated by Sir Ernest Alfred Wallis Budge"
 	},
@@ -110,7 +111,7 @@
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["Gain a free [Mosque] [in this city]", "Only available <after adopting [Piety]>", "Hidden when religion is disabled",
-			"[Missionary] units built [in this city] receive the [Devout] promotion", "[Great Prophet] units built [in this city] receive the [Devout] promotion"],
+			"All newly-trained [Missionary] units [in this city] receive the [Devout] promotion", "All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion"],
 		"requiredTech": "Theology",
 		"quote": "'With the magnificence of eternity before us, let time, with all its fluctuations, dwindle into its own littleness.' - Thomas Chalmers"
 	},

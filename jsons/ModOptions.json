@@ -1,4 +1,9 @@
 {
-	 "nationsToRemove":["Rio de Janeiro","Helsinki","Dublin","Edinburgh"],
-	 "buildingsToRemove": ["National Treasury"]
+	"buildingsToRemove": ["National Treasury"],
+	"nationsToRemove": [
+		"Dublin",
+		"Rio de Janeiro",
+		"Edinburgh",
+		"Helsinki"
+	]
 }
